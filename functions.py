@@ -46,11 +46,8 @@ print(print_person_introduction("cedric", "ketcha", "Chicago"))
 #     and returns a boolean if the fruit is a "strawberry", "raspberry",
 #     "blackberry", or "currant."
 def is_berry(fruit):
-   if fruit == "strawberry" or fruit == "raspberry" or fruit == "blackberry" or fruit == "currant.":
-      return True
-   else:
-      return False
-
+   return  fruit == "strawberry" or fruit == "raspberry" or fruit == "blackberry" or fruit == "currant."
+   
 print(is_berry("pineapple"))
 print(is_berry("blackberry"))
 
